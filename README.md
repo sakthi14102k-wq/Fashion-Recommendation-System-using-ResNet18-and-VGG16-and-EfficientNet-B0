@@ -1,10 +1,10 @@
-# Fashion-Recommendation-System-using-ResNet18-and-VGG16
+# Fashion-Recommendation-System-using-ResNet50-and-VGG16-and-EfficientNet_b0
 
 # Recommendation Systems Engine for Images  
-### Using CNN Architectures (ResNet + VGGNet)
+### Using CNN Architectures (ResNet + VGGNet+EfficientNet)
 
 ## 📌 Overview
-This project builds an AI-powered Image Recommendation System using Deep Learning and CNN models like ResNet18 and VGG16.  
+This project builds an AI-powered Image Recommendation System using Deep Learning and CNN models like ResNet50,EfficientNet_b0 and VGG16.  
 The system recommends visually similar fashion items using feature extraction and cosine similarity.
 
 ---
@@ -12,7 +12,7 @@ The system recommends visually similar fashion items using feature extraction an
 ## 🚀 Features
 - Image Recommendation System
 - CNN Feature Extraction
-- ResNet18 & VGG16 Models
+- ResNet50 & VGG16 Models
 - Cosine Similarity Search
 - Streamlit Web App
 - Real-time Similar Item Recommendation
@@ -36,8 +36,9 @@ The system recommends visually similar fashion items using feature extraction an
 ---
 
 ## 🧠 CNN Models
-### ResNet18
+### ResNet50
 ### VGG16
+### EfficientNet_b0
 
 ---
 
@@ -55,9 +56,10 @@ The system recommends visually similar fashion items using feature extraction an
 ├── 📂 saved_models/
 ├── 📄 app.py                   # Production Streamlit engine application
 ├── 📄 eda.ipynb                # Notebook for image exploratory analytics
-├── 📄 model_resnet.ipynb       # ResNet18 core architecture and optimization setup
-├── 📄 model_VGG16.ipynb        # VGG16 network fine-tuning pipeline
-└── 📄 model comparsion.ipynb   # Parametric footprint comparison diagnostics
+├── 📄 resnet.ipynb       # ResNet50 core architecture and optimization setup
+├── 📄 vgg.ipynb        # VGG16 network fine-tuning pipeline
+├── 📄 efficientnet.ipynb        # VGG16 network fine-tuning pipeline
+└── 📄 model_comparsion.ipynb   # Parametric footprint comparison diagnostics
 ```
 
 ---
@@ -75,6 +77,3 @@ The system recommends visually similar fashion items using feature extraction an
 - Visual Search Applications
 
 ---
-
-## 👨‍💻 Author
-Developed using PyTorch and Deep Learning for AI-powered image recommendation systems.
