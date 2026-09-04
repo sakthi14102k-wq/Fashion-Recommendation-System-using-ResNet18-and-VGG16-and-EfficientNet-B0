@@ -12,7 +12,7 @@ The system recommends visually similar fashion items using feature extraction an
 ## 🚀 Features
 - Image Recommendation System
 - CNN Feature Extraction
-- ResNet50 & VGG16 Models
+- ResNet50 & VGG16, Efficientnet_b0 Models
 - Cosine Similarity Search
 - Streamlit Web App
 - Real-time Similar Item Recommendation
